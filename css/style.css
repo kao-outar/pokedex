@@ -1,5 +1,27 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+body{
+    background: linear-gradient(to bottom, #1e86dc, #98cde7);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: inline-block;
+    margin: 3%;
+    padding: 10px;
+    position: relative;
+}
+.pokedex{
+    width: 100%;    
+}
+.pokemon{
+    width: 22%;
+    position: absolute;
+    left: 18%;
+    top: 30%;
 }

@@ -11,7 +11,9 @@
 </head>
 <body>
     <main>
-        <img src="images/Group 8.svg" alt="image pokédex">
+        <img src="images/pokédex.png" alt="image pokédex" class="pokedex">
+
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/female/25.gif" alt="pokemon" class="pokemon">
     </main>
 </body>
 </html>
