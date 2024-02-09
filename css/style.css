@@ -20,8 +20,75 @@ main{
     width: 100%;    
 }
 .pokemon{
-    width: 22%;
+    width: 20%;
     position: absolute;
     left: 18%;
-    top: 30%;
+    top: 33%;
 }
+/*CSS de big green box*/
+.big_green_box{
+    height : 6px;
+    width: 30%;
+    /* background-color: red; */
+    background-color: #022B23;
+    top: 40%;
+    left: 60%;
+}
+.pokemon_name, .big_green_box{
+    position: absolute;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*CSS de big black box*/
+.big_black_box{
+    height : 6px;
+    width: 30%;
+    /* background-color: red; */
+    background-color: #1A1A1A;
+    top: 57%;
+    left: 60%;
+}
+.pokemon_name, .big_black_box{
+    position: absolute;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: large ;
+
+}
+/*CSS DES BOUTTONS */
+.buttons{
+    position: absolute;
+    bottom: 10%;
+    left: 78%;
+    width: 33%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+button{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+
+  }
+    
+
