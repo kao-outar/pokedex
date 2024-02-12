@@ -14,6 +14,9 @@
         <img src="images/pokédex.png" alt="image pokédex" class="pokedex">
 
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/female/25.gif" alt="pokemon" class="pokemon">
+        <form class="form">
+      <input
+        type="search" class="search" placeholder="Nom ou Numéro" required/></form>
         <div class="big_green_box">
             <h1 class="pokemon_name">Pikachu</h1>
         </div>
