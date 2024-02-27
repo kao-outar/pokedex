@@ -13,20 +13,28 @@
     <main>
         <img src="images/pokédex.png" alt="image pokédex" class="pokedex">
 
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/female/25.gif" alt="pokemon" class="pokemon">
+        <div class="pokemon_image">
+            <img src="#" alt="pokemon" class="pokemon">
+        </div>
+       
+           
         <form class="form">
       <input
         type="search" class="search" placeholder="Nom ou Numéro" required/></form>
+
         <div class="big_green_box">
-            <h1 class="pokemon_name">Pikachu</h1>
+            <h1 class="pokemon_name"></h1>
         </div>
         <div class="big_black_box">
-            <h1 class="pokemon_power">25</h1>
+            <h1 class="pokemon_number"></h1>
         </div>
         <div class="buttons">
             <button class="button_prev">Précédant</button>
             <button class="button_next">Suivant</button>
         </div>
+
+        
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>

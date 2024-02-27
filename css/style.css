@@ -19,11 +19,24 @@ main{
 .pokedex{
     width: 100%;    
 }
-.pokemon{
-    width: 20%;
+/*CSS de image poke*/
+.pokemon_image{
+    /* background-color: red; */
     position: absolute;
+    height : 20%;
+    width: 30%;
+    top: 30.2%;
+    left: 15vh;
+}
+.pokemon{
+    width:60%;
+    /* position: absolute; */
     left: 18%;
     top: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 /*CSS de big green box*/
 .big_green_box{
@@ -50,7 +63,7 @@ main{
     top: 57%;
     left: 60%;
 }
-.pokemon_name, .big_black_box{
+.big_black_box{
     position: absolute;
     color: aliceblue;
     display: flex;
