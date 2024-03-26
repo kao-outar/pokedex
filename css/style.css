@@ -27,6 +27,16 @@ main{
     width: 30%;
     top: 30.2%;
     left: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28%; 
+    width: 25%; 
+    top: 44.4%; 
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+    overflow: hidden;
+    
 }
 .pokemon{
     width:60%;
@@ -83,6 +93,13 @@ h1{
     transform: translate(-57%, 0);
     display: flex;
     gap: 20px;
+    position: absolute;
+    bottom: 10%; /* ajustez ce pourcentage pour déplacer vers le haut ou le bas */
+    left: 50%; /* commencez au centre */
+    transform: translateX(-50%); /* décaler de 50% de sa propre largeur pour centrer */
+    width: auto; /* ou une largeur en % pour plus de contrôle */
+    display: flex;
+    justify-content: space-around;
 }
 button{
     width: 50%;
