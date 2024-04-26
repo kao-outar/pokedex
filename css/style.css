@@ -3,6 +3,13 @@
     padding: 0;
     font-family: 'Oxanium', cursive;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
 body{
     background: linear-gradient(to bottom, #1e86dc, #98cde7);
     min-height: 100vh;
@@ -27,6 +34,16 @@ main{
     width: 30%;
     top: 30.2%;
     left: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28%; 
+    width: 25%; 
+    top: 44.4%; 
+    left: 25%; 
+    transform: translate(-50%, -50%); 
+    overflow: hidden;
+    
 }
 .pokemon{
     width:60%;
@@ -76,13 +93,17 @@ h1{
 }
 /*CSS DES BOUTTONS */
 .buttons{
-    position: absolute;
-    bottom: 10%;
-    left: 78%;
+    left: 100%;
     width: 33%;
     transform: translate(-57%, 0);
-    display: flex;
     gap: 20px;
+    position: absolute;
+    bottom: 12%; 
+    left: 76%;  
+    transform: translateX(-50%); 
+    
+    display: flex;
+    justify-content: space-around;
 }
 button{
     width: 50%;
@@ -111,8 +132,8 @@ button:active {
     left: 6.5%;
   }
   
-  .search {
-    width: 35%;
+input.rechercher, .search {
+    width: 40%;
     padding: 2%;
     outline: none;
     border: 2px solid #333;
@@ -122,5 +143,9 @@ button:active {
     font-size: clamp(8px, 5vw, 1rem);
     box-shadow: -3px 4px 0 #888, -5px 7px 0 #333
   }
+input.rechercher{
+    width: 20%;
+    padding-left: 0;
+}
     
 
